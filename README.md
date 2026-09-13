@@ -2,8 +2,6 @@
 
 Predicting the **Remaining Useful Life (RUL)** of turbofan engines from multivariate sensor data, comparing classical machine learning models against an LSTM deep learning model, evaluated with both RMSE and NASA's safety-weighted asymmetric scoring function.
 
-> Academic research project (Scientific Approach Application) — CESI École d'Ingénieurs, Toulouse. February 2026.
-
 ## Overview
 
 Unplanned turbofan engine failures are safety-critical and costly, while fixed-schedule preventive maintenance often replaces components before the end of their useful life. This project investigates whether machine learning can estimate RUL accurately enough from raw sensor data to support a shift toward predictive maintenance.
