@@ -1,23 +1,6 @@
-# Turbofan RUL Predictive Maintenance
+# Turbofan RUL Predictive Maintenance Scientific Research
 
 > Predicting the **Remaining Useful Life (RUL)** of turbofan engines from multivariate sensor data, comparing classical machine learning models against an **LSTM** deep learning model, evaluated with both **RMSE** and **NASA's safety-weighted asymmetric scoring function**.
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue) ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange) ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-FF6F00) ![Dataset](https://img.shields.io/badge/Data-NASA%20C--MAPSS-0B3D91)
-
----
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Results](#key-results)
-- [Methodology](#methodology)
-- [Repo Structure](#repo-structure)
-- [Dataset](#dataset)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Limitations & Future Work](#limitations--future-work)
-- [Author](#author)
-- [License](#license)
 
 ---
 
