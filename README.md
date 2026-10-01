@@ -23,7 +23,7 @@ Using the **FD001 subset of NASA's C-MAPSS** dataset (100 training engines, 100 
 | **LSTM** | **15.41** | **423.3** | 219.37 |
 
 - The **LSTM outperforms every tabular baseline**: 14.7% lower RMSE and 53.6% lower NASA score than the best tabular model (Random Forest).
-- Its advantage is far larger in the **operationally critical zone** (true RUL < 50 cycles): RMSE of 6.14 cycles vs 16.47–16.49 cycles for the tabular models — roughly **2.7x more accurate exactly where maintenance decisions matter most**.
+- Its advantage is far larger in the **operationally critical zone** (true RUL < 50 cycles): RMSE of 6.14 cycles vs 16.47–16.49 cycles for the tabular models — roughly **2.7x more accurate exactly where maintenance decisions matter**.
 - Feature importance is highly concentrated: **sensor 11** (HPC outlet static pressure) alone accounts for ~65% of Random Forest importance, consistent with published C-MAPSS analyses.
 - Evaluating with RMSE alone can be misleading in a safety-critical context — the asymmetric NASA scoring function (which penalizes late/optimistic predictions more heavily) changes the practical ranking of "best" model.
 
