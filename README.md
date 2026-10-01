@@ -42,7 +42,7 @@ Using the **FD001** subset of NASA's C-MAPSS dataset (100 training engines, 100 
 5. **Sequence construction** — 30-cycle sliding windows per engine for the LSTM input.
 6. **Evaluation** — RMSE (symmetric) and the NASA PHM08 asymmetric scoring function, computed on the last cycle of each of the 100 test engines.
 
-**NASA scoring function** — with $d = \text{RUL}_{pred} - \text{RUL}_{true}$:
+**NASA scoring function** — with $`d_i = \text{RUL}_i^{\text{pred}} - \text{RUL}_i^{\text{true}}`$:
 
 $$
 s = \sum_{i=1}^{n}
