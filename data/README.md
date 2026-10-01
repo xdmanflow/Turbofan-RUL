@@ -1,4 +1,4 @@
-# Data Management
+# Data Structure
 
 Data Set: FD001
 Train trjectories: 100
