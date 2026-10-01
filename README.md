@@ -32,7 +32,7 @@ Using the **FD001 subset of NASA's C-MAPSS** dataset (100 training engines, 100 
 1. **Feature selection** — 6 of 21 raw sensors excluded as near-constant under FD001's single operating condition, leaving 15 informative sensors + 3 operational settings.
 2. **RUL capping** — training labels capped at 125 cycles (piecewise-linear target), a standard practice since early-life degradation isn't observable in the sensors.
 3. **Normalization** — min-max scaling, fit on training data only, to avoid leakage.
-4. **Train/validation split** — performed at the **engine level** (not row level) to prevent leakage across a single engine's trajectory.
+4. **Train/validation split** — performed at the **engine level** to prevent leakage across a single engine's trajectory.
 5. **Sequence construction** — 30-cycle sliding windows per engine for the LSTM input.
 6. **Evaluation** — RMSE (symmetric) and the **NASA PHM08 asymmetric scoring function** (penalizes late predictions more heavily than early ones), computed on the last cycle of each of the 100 test engines.
 
