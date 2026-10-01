@@ -1,0 +1,24 @@
+# Dataset (download separately — see data/README.md)
+data/*
+!data/README.md
+
+# Generated results (figures are kept)
+figures/*.csv
+
+# Models
+*.keras
+*.h5
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
