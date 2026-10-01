@@ -90,7 +90,7 @@ Download the FD001 files from the [NASA PCoE data repository](https://www.nasa.g
 
 ## Author
 
-**Manil Doudou** — CS Engineering student (Data Science & AI), CESI Toulouse.
+**Manil DOUDOU** — CS Engineering student (Data Science & AI), CESI Toulouse.
 
 ## License
 
