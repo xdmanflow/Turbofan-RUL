@@ -179,7 +179,7 @@ node assemble.js                  # -> SAA_Report_Predictive_Maintenance.docx
 
 ## Author
 
-**Manil DOUDOU** — CS Engineering student (Data Science & AI), CESI Toulouse
+**Manil DOUDOU** — CS Engineering student (AI & Data Science), CESI Toulouse
 [GitHub](https://github.com/xdmanflow) · [LinkedIn](https://www.linkedin.com/in/manil-doudou-4745923a0)
 
 ## License
